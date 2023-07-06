@@ -1,7 +1,12 @@
+import TopBar from "./layout-components/TopBar";
+
 const Layout = ({ children }) => {
   return (
     <>
-      <main className="container">{children}</main>
+      <div className="container">
+        <TopBar />
+        <main>{children}</main>
+      </div>
     </>
   );
 };

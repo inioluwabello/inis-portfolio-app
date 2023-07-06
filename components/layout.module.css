@@ -1,0 +1,16 @@
+.logoDot{
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border: 3px solid coral;
+    border-radius: 10px;
+    margin-left: .3rem;
+    margin-bottom: 1px;
+}
+.logoText {
+    font-weight: 600;
+    font-size: 1rem;
+}
+.navList {
+
+}

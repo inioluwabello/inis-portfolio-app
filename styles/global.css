@@ -5,7 +5,6 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
   line-height: 1.6;
-  background-color: #f3f2ef !important;
 }
 
 * {
@@ -59,4 +58,44 @@ img {
 
 .absolute {
   position: absolute;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.border-top-1 {
+  border-top: 1px solid #cccccc;
+}
+
+.right-content {
+  min-height: calc(34rem);
+  background-color: #2a1e5a;
+}
+
+.profile-img {
+  border-radius: 120px;
+  height: 120px;
+  width: 120px;
+  border: 3px solid #ffffff;
+  margin: 0px auto;
+}
+.intro-text {
+  color: #fff;
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.app-icon {
+  width: 4rem;
+  background-color: #fff;
+  padding: .8rem;
+  border-radius: 50px;
+  margin: 0px auto;
+  overflow: hidden;
+  box-shadow: 0 0px 6px 1px #1365acfa;
 }
