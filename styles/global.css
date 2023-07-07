@@ -5,6 +5,10 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
   line-height: 1.6;
+  /* background-color: #999999; */
+}
+.container {
+  background-color: #ffffff;
 }
 
 * {
@@ -73,7 +77,7 @@ a {
 }
 
 .right-content {
-  min-height: calc(34rem);
+  min-height: calc(58rem + 6px);
   background-color: #ded1c1;
 }
 
@@ -131,7 +135,7 @@ a {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 .home-btns {
@@ -158,8 +162,85 @@ a {
   left: 0.3rem;
   top: -.1rem;
 }
+
 .card-title {
   padding: .2rem .5rem;
   font-size: .9rem;
   font-weight: 600;
+}
+
+.project-img {
+  height: 155px;
+  overflow: hidden;
+}
+
+.card-actions {
+  text-align: right;
+  padding: 0.5rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.page-footer {
+  background-color: #262626;
+  padding: 3rem;
+  color: #fff;
+}
+
+.footer-button {
+  background-color: #fbd20b;
+  color: #111;
+  font-weight: 500;
+  font-size: .7rem;
+  padding: 0.5rem 1rem;
+  position: relative;
+  top: 1.5rem;
+  border-radius: 5px;
+}
+
+.border-bottom-1 {
+  border-bottom: 1px solid #ccc;
+}
+
+.statistics {
+  padding: 0.5rem 0;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.color-pry {
+  color: #424B57
+}
+
+.alt-color>div>a,
+.alt-color>a,
+.alt-color {
+  color: #c5c5c5;
+}
+
+.grey-dot {
+  display: inline-block;
+  height: 0px;
+  width: 0px;
+  border: 2px solid #c5c5c5;
+  border-radius: 10px;
+  position: relative;
+  top: 0.9rem;
+}
+
+.footer-links>a>svg {
+  position: relative;
+  top: -2px;
+}
+
+.hover-bg:hover {
+  background-color: #c5c5c530;
+  cursor: pointer;
+}
+
+.hover-items {
+  padding: 0.3rem 0.8rem;
+  border-radius: 5px;
 }

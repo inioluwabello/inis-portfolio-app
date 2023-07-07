@@ -1,6 +1,6 @@
 import Layout from "../components/layout";
 import Heading from "../components/heading";
-import RightPane1 from "../components/home/RightPane";
+import RightPane from "../components/home/RightPane";
 import LeftPane from "../components/home/LeftPane";
 const Index = ({}) => {
   return (
@@ -13,7 +13,7 @@ const Index = ({}) => {
               <LeftPane />
             </div>
             <div className="col-md-5 d-xs-none d-sm-none d-md-block">
-              <RightPane1 />
+              <RightPane />
             </div>
           </div>
         </div>
