@@ -3,7 +3,7 @@ const PageIllustrationMobile = () => {
   
   return (
     <div className="d-xs-block d-sm-block d-md-none d-lg-none d-xl-none">
-      <img src={`${rootAssets}images/illustration-sign-up-mobile.svg`} />
+      <img style={{width: "100%"}} src={`${rootAssets}images/illustration-sign-up-mobile.svg`} />
     </div>
   );
 };
