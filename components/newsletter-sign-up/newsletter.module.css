@@ -50,16 +50,17 @@
     padding: 1rem;
 }
 .contentSuccess {
-    width: 300px;
+    max-width: 300px;
     padding: 1rem 1rem 2rem 1rem;
+    margin: 1rem;
 }
 .mobileContent {
     background-color: #ffffff;
-    width: 550px;
+    max-width: 375px;
     min-height: 500px;
 }
 .mobileContentSuccess {
-    width: 550px;
+    max-width: 375px;
 }
 
 .list {
