@@ -13,7 +13,8 @@ const LeftPane = ({}) => {
       <div style={{ width: "70%" }}>
         <h1 className="mt-5">
           <div>
-            Hi! I Am <div className="dev">Verified</div>
+            Hi! I Am 
+            {/* <div className="dev">Verified</div> */}
           </div>
           <div>David Inioluwa...</div>
         </h1>
@@ -24,10 +25,10 @@ const LeftPane = ({}) => {
       </div>
 
       {/* Hire Me */}
-      <div className="hire mt-5">
+      <div className="hire mt-3">
         <div className="row">
           <div className="col">
-            <a href="mailto:belloolakunledavid@gmail.com" className="home-btns hire-me">Hire Me</a>
+            <a href="mailto:belloolakunledavid@gmail.com" className="home-btns hire-me">Contact Me</a>
           </div>
           {/* <div className="col"></div>
           <div className="col d-xs-none d-sm-none d-md-block">
@@ -37,11 +38,11 @@ const LeftPane = ({}) => {
       </div>
 
       {/* Projects */}
-      <div className="f-projects mt-5">
-        <div className="text-right home-btns projects">
-          Featured Projects |{" "}
-          <Link href="/works">
-            See All <FontAwesomeIcon icon={faProjectDiagram} width={12} />
+      <div className="f-projects" style={{marginTop: "8rem"}}>
+        <div className="space-between home-btns projects">
+          <span>Featured Projects</span>
+          <Link className="btn btn-sm btn-primary" href="/works">
+            See All Projects{" "}<FontAwesomeIcon icon={faProjectDiagram} width={12} />
           </Link>
         </div>
         <hr style={{ marginTop: "0" }} />
@@ -49,7 +50,7 @@ const LeftPane = ({}) => {
         <div className="row">
           <div className="col-sm-12 col-md-6">
             <Link target="_blank" href="https://linkedin-two-chi.vercel.app/">
-              <div className="card pointer">
+              <div className="card mt-3 pointer">
                 <div className="card-title">LinkedIn Clone</div>
                 <div className="card-content">
                   <div className="project-img">
@@ -63,8 +64,8 @@ const LeftPane = ({}) => {
             </Link>
           </div>
           <div className="col-sm-12 col-md-6">
-            <Link target="_blank" href="https://standr-next.vercel.app/product">
-              <div className="card pointer">
+            <Link className="mt" target="_blank" href="https://standr-next.vercel.app/product">
+              <div className="card mt-3 pointer">
                 <div className="card-title">EShop Checkout</div>
                 <div className="card-content">
                   <div className="project-img">
@@ -79,10 +80,10 @@ const LeftPane = ({}) => {
           </div>
         </div>
 
-        <div className="page-footer mt-3">
+        <div className="page-footer mt-5">
           {/* Statistics */}
           <div className="row">
-            <div className="col-sm-6 block-items">
+            <div className="col-sm-6">
               <strong>Project</strong>
               <br />
               <strong>Statistics 2023</strong> <br />
@@ -91,7 +92,7 @@ const LeftPane = ({}) => {
               </Link>
             </div>
             <div className="col-sm-6">
-              <div className="space-between statistics border-bottom-1">
+              <div className="mt-5 space-between statistics border-bottom-1">
                 <div className="stat">Front End Development</div>
                 <div className="rating">
                   <FontAwesomeIcon
@@ -159,7 +160,7 @@ const LeftPane = ({}) => {
           </div>
 
           {/* Contact */}
-          <div className="space-around footer-links alt-color mt-5">
+          <div className="space-around footer-links alt-color text-sm mt-5">
             <span style={{position: "relative", top: ".3rem"}}>
               <strong>Contact: </strong>
             </span>
@@ -181,7 +182,7 @@ const LeftPane = ({}) => {
               </svg>{" "}
               <span>LinkedIn</span>
             </Link>
-            <div className="grey-dot"></div>
+            
             <Link
               className="hover-bg hover-items"
               target="_blank"
@@ -201,7 +202,7 @@ const LeftPane = ({}) => {
               </svg>{" "}
               <span>GitHub</span>
             </Link>
-            <div className="grey-dot"></div>
+            
             <Link
               className="hover-bg hover-items"
               target="_blank"

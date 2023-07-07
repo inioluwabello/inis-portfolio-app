@@ -8,10 +8,10 @@ const Index = ({}) => {
       <Heading title={"NewsLetter Sign Up"} />
       <Layout>
         <div className="row">
-          <div className="col">
+          <div className="col-md-12 col-lg-7">
             <LeftPane />
           </div>
-          <div className="col">
+          <div className="d-xs-none d-sm-none d-md-none d-lg-block col-lg-5">
             <RightPane />
           </div>
         </div>

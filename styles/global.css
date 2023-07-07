@@ -155,6 +155,11 @@ a {
   background: transparent;
   color: #111111;
 }
+.projects > span {
+  font-size: .9rem;
+  position: relative;
+  top: 4px;
+}
 
 .projects>svg {
   rotate: 45deg;
@@ -249,4 +254,7 @@ a {
   .d-xs-none {
     display: none;
   }
+}
+.text-sm {
+  font-size: .65rem;
 }
