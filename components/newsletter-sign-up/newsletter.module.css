@@ -57,7 +57,7 @@
 .mobileContent {
     background-color: #ffffff;
     max-width: 375px;
-    min-height: 500px;
+    min-height: 100vh;
 }
 .mobileContentSuccess {
     max-width: 375px;
