@@ -5,14 +5,14 @@ import LeftPane from "../components/home/LeftPane";
 const Index = ({}) => {
   return (
     <>
-      <Heading title={"New App"} />
+      <Heading title={"Ini's Portfolio"} />
       <Layout>
         <div className="border-top-1">
           <div className="row">
-            <div className="col">
+            <div className="col-sm-12 col-md-7">
               <LeftPane />
             </div>
-            <div className="col d-sm-none d-md-block">
+            <div className="col-md-5 d-xs-none d-sm-none d-md-block">
               <RightPane1 />
             </div>
           </div>

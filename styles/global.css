@@ -74,7 +74,7 @@ a {
 
 .right-content {
   min-height: calc(34rem);
-  background-color: #2a1e5a;
+  background-color: #ded1c1;
 }
 
 .profile-img {
@@ -84,8 +84,9 @@ a {
   border: 3px solid #ffffff;
   margin: 0px auto;
 }
+
 .intro-text {
-  color: #fff;
+  color: #111;
   text-align: center;
   padding-top: 6rem;
 }
@@ -97,9 +98,68 @@ a {
   border-radius: 50px;
   margin: 0px auto;
   overflow: hidden;
-  box-shadow: 0 0px 6px 1px #1365acfa;
+  box-shadow: 0 0px 6px 1px #a3a5a6fa;
   width: 50px;
-    height: 50px;
+  height: 50px;
 }
+
+.left-content {
+  padding: 1rem;
+}
+
+.profile-apps {
+  width: 60%;
+  margin: 0px auto;
+}
+
+@media (min-width: 520px) {
+  .d-xs-none {
+    display: none;
+  }
+}
+
+.dev {
+  padding: .5rem .8rem;
+  display: inline-block;
+  background-color: #5562ff;
+  border-radius: 50px;
+  color: #fff;
+  font-size: .8rem;
+  font-weight: bold;
+  position: relative;
+  top: -0.4rem;
+}
+
 .container {
+  max-width: 1000px;
+}
+
+.home-btns {
+  font-size: .8rem;
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.hire-me {
+  background: #fe481c;
+  color: #fff;
+}
+
+.projects {
+  background: transparent;
+  color: #111111;
+}
+
+.projects>svg {
+  rotate: 45deg;
+  position: relative;
+  left: 0.3rem;
+  top: -.1rem;
+}
+.card-title {
+  padding: .2rem .5rem;
+  font-size: .9rem;
+  font-weight: 600;
 }

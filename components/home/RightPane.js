@@ -11,7 +11,7 @@ const RightPane = ({}) => {
 
       <div style={{ marginTop: "3rem" }}>
         <div className="relative">
-          <div className="absolute" style={{ top: "", left: "40%" }}>
+          <div className="profile-apps">
             <img className="profile-img" src="/images/ini.jpg" />
             <div className="app-icon" style={{position: "relative", top: "-4rem", left: "-7rem" }}>
               <img src="/images/angular.png" />
