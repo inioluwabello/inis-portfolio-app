@@ -76,13 +76,13 @@
 
 .emailLabel {
     display: block;
-    font-size: .6rem;
+    font-size: .7rem;
     font-weight: 700;
 }
 
 .emailInput {
     margin-top: .3rem;
-    font-size: .7rem;
+    font-size: .8rem;
     color: hsl(231, 7%, 60%);
     padding: .8rem;
     display: block;
@@ -100,7 +100,7 @@
 .errorMessage {
     color: hsl(4, 100%, 67%);
     display: block;
-    font-size: .6rem;
+    font-size: .7rem;
     font-weight: 700;
 }
 
