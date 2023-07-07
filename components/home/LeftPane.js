@@ -47,7 +47,7 @@ const LeftPane = ({}) => {
         <hr style={{ marginTop: "0" }} />
 
         <div className="row">
-          <div className="col">
+          <div className="col-sm-12 col-md-6">
             <Link target="_blank" href="https://linkedin-two-chi.vercel.app/">
               <div className="card pointer">
                 <div className="card-title">LinkedIn Clone</div>
@@ -62,7 +62,7 @@ const LeftPane = ({}) => {
               </div>
             </Link>
           </div>
-          <div className="col">
+          <div className="col-sm-12 col-md-6">
             <Link target="_blank" href="https://standr-next.vercel.app/product">
               <div className="card pointer">
                 <div className="card-title">EShop Checkout</div>
