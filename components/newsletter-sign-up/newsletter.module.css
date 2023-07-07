@@ -56,11 +56,11 @@
 }
 .mobileContent {
     background-color: #ffffff;
-    max-width: 400px;
+    max-width: 550px;
     min-height: 100vh;
 }
 .mobileContentSuccess {
-    max-width: 400px;
+    max-width: 550px;
 }
 
 .list {
