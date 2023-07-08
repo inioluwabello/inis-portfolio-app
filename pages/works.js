@@ -5,12 +5,8 @@ const Works = () => {
     <>
       <div className="projects p-3">
         <div id="project-0">
-          <Link href="https://linkedin-two-chi.vercel.app">
-            LinkedIn Clone
-          </Link>
-          <p>
-            A clone of the LinkeIn Feeds page
-          </p>
+          <Link href="https://linkedin-two-chi.vercel.app">LinkedIn Clone</Link>
+          <p>A clone of the LinkeIn Feeds page</p>
         </div>
 
         <div id="project-1">
@@ -30,6 +26,15 @@ const Works = () => {
           <p>
             Design preview for the FrontEnd Mentor Age Calculator coding
             challenge
+          </p>
+        </div>
+
+        <div id="project-3">
+          <Link href="https://result-summary-beta.vercel.app">
+            Result Summary
+          </Link>
+          <p>
+            Design preview for the FrontEnd Mentor Result Preview coding challenge
           </p>
         </div>
       </div>
