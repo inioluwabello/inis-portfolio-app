@@ -1,10 +1,11 @@
-import NewsLetterLayout from "../components/newsletter-sign-up/newsletter-layout";
-import styles from "../components/newsletter-sign-up/newsletter.module.css";
-import DesktopView from "../components/newsletter-sign-up/DesktopView";
-import MobileView from "../components/newsletter-sign-up/MobileView";
-import DesktopSuccessView from "../components/newsletter-sign-up/DesktopSuccessView";
-import MobileSuccessView from "../components/newsletter-sign-up/MobileSuccessView";
+
 import { useEffect, useState } from "react";
+import MobileView from "../components/newsletter-sign-up/MobileView";
+import DesktopView from "../components/newsletter-sign-up/DesktopView";
+import styles from "../components/newsletter-sign-up/newsletter.module.css";
+import NewsLetterLayout from "../components/newsletter-sign-up/newsletter-layout";
+import MobileSuccessView from "../components/newsletter-sign-up/MobileSuccessView";
+import DesktopSuccessView from "../components/newsletter-sign-up/DesktopSuccessView";
 
 const NewsLetter = () => {
   const [email, setEmail] = useState("");
