@@ -116,16 +116,16 @@ Proud of a clean components tree
 
 ### Useful resources
 
-- [Upmostly] (https://upmostly.com/tutorials/react-onhover-event-handling-with-examples) - React onHover Event Handling (with Examples).
+- [Upmostly](https://upmostly.com/tutorials/react-onhover-event-handling-with-examples) - React onHover Event Handling (with Examples).
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag) - Viewport meta tag.
-- [Amit Merchant] (https://www.amitmerchant.com/gradient-box-shadow-in-css/#:~:text=0.25%C3%97%20Rerun-,The%20%3A%3Abefore%20pseudo%20element%20trickery,it%20looks%20like%20a%20shadow.&text=As%20you%20can%20tell%2C%20since,background%20of%20the%20pseudo%2Delement.) - Gradient-y Box Shadows in CSS
+- [Amit Merchant](https://www.amitmerchant.com/gradient-box-shadow-in-css/#:~:text=0.25%C3%97%20Rerun-,The%20%3A%3Abefore%20pseudo%20element%20trickery,it%20looks%20like%20a%20shadow.&text=As%20you%20can%20tell%2C%20since,background%20of%20the%20pseudo%2Delement.) - Gradient-y Box Shadows in CSS
 - [CSS Gradient] (https://cssgradient.io/)
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website [Inioluwa] (https://github.com/inioluwabello)
+- Website [Inioluwa](https://github.com/inioluwabello)
 - Frontend Mentor - [@inioluwabello](https://www.frontendmentor.io/profile/inioluwabello)
 - Twitter - [@DavidInioluwaB](https://twitter.com/davidInioluwaB)
 
