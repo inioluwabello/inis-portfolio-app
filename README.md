@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github] (https://github.com/inioluwabello/inis-portfolio-app)
-- Live Site URL: [Vercel] (inis-portfolio.vercel.app/newsletter-sign-up)
+- Live Site URL: [Vercel] (https://inis-portfolio.vercel.app/newsletter-sign-up)
 
 ## My process
 
