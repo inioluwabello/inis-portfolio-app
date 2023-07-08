@@ -3,7 +3,7 @@ import Link from "next/link";
 const Works = () => {
   return (
     <>
-      <div className="projects">
+      <div className="projects p-3">
         <div id="project-1">
           <Link href="https://newsletter-nine-ecru.vercel.app">Newsletter Sign Up</Link>
           <p>
