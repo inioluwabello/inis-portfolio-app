@@ -3,8 +3,8 @@ const Index = ({}) => {
   return (
     <>
       <Heading title={"David's Portfolio"} />
-      <nav id="navbar" class="nav">
-        <ul class="nav-list">
+      <nav id="navbar" className="nav">
+        <ul className="nav-list">
           <li>
             <a href="#welcome-section">About</a>
           </li>
@@ -17,155 +17,155 @@ const Index = ({}) => {
         </ul>
       </nav>
 
-      <section id="welcome-section" class="welcome-section">
+      <section id="welcome-section" className="welcome-section">
         <h1>Hey, I am David</h1>
         <p>I'm a software developer...</p>
       </section>
 
-      <section id="projects" class="projects-section">
-        <h2 class="projects-section-header">These are some of my projects</h2>
+      <section id="projects" className="projects-section">
+        <h2 className="projects-section-header">These are some of my projects</h2>
 
-        <div class="projects-grid">
+        <div className="projects-grid">
           <a
             href="https://rock-paper-scissors-lizard-spock-gilt.vercel.app"
             target="_blank"
-            class="project project-tile"
+            className="project project-tile"
           >
             <img
-              class="project-image"
+              className="project-image"
               src="https://rock-paper-scissors-lizard-spock-gilt.vercel.app/images/screenshot.jpg"
               alt="project"
             />
-            <p class="project-title">
-              <span class="code">&lt;</span>
+            <p className="project-title">
+              <span className="code">&lt;</span>
               Rock Paper Scissor Lizard Spock
-              <span class="code">/&gt;</span>
+              <span className="code">/&gt;</span>
             </p>
           </a>
 
           <a
             href="https://newsletter-nine-ecru.vercel.app"
             target="_blank"
-            class="project project-tile"
+            className="project project-tile"
           >
             <img
-              class="project-image"
+              className="project-image"
               src="https://newsletter-nine-ecru.vercel.app/assets/images/screenshot.jpg"
               alt="project"
             />
-            <p class="project-title">
-              <span class="code">&lt;</span>
+            <p className="project-title">
+              <span className="code">&lt;</span>
               Newsletter App
-              <span class="code">/&gt;</span>
+              <span className="code">/&gt;</span>
             </p>
           </a>
 
           <a
             href="https://multi-step-form-khaki-ten.vercel.app"
             target="_blank"
-            class="project project-tile"
+            className="project project-tile"
           >
             <img
-              class="project-image"
+              className="project-image"
               src="https://multi-step-form-khaki-ten.vercel.app/assets/images/screenshot.jpg"
               alt="project"
             />
-            <p class="project-title">
-              <span class="code">&lt;</span>
+            <p className="project-title">
+              <span className="code">&lt;</span>
               Multi-step Form
-              <span class="code">/&gt;</span>
+              <span className="code">/&gt;</span>
             </p>
           </a>
           <a
             href="https://linkedin-two-chi.vercel.app/"
             target="_blank"
-            class="project project-tile"
+            className="project project-tile"
           >
             <img
-              class="project-image"
+              className="project-image"
               src="https://placehold.co/600x400"
               alt="project"
             />
-            <p class="project-title">
-              <span class="code">&lt;</span>
+            <p className="project-title">
+              <span className="code">&lt;</span>
               LinkedIn Clone (Feeds Page)
-              <span class="code">/&gt;</span>
+              <span className="code">/&gt;</span>
             </p>
           </a>
 
           <a
             href="https://result-summary-beta.vercel.app"
             target="_blank"
-            class="project project-tile"
+            className="project project-tile"
           >
             <img
-              class="project-image"
+              className="project-image"
               src="https://result-summary-beta.vercel.app/images/screenshot.png"
               alt="project"
             />
-            <p class="project-title">
-              <span class="code">&lt;</span>
+            <p className="project-title">
+              <span className="code">&lt;</span>
               Wikipedia Viewer
-              <span class="code">/&gt;</span>
+              <span className="code">/&gt;</span>
             </p>
           </a>
 
           <a
             href="https://age-calculator-pi-one.vercel.app"
             target="_blank"
-            class="project project-tile"
+            className="project project-tile"
           >
             <img
-              class="project-image"
+              className="project-image"
               src="https://age-calculator-pi-one.vercel.app/images/screenshot.png"
               alt="project"
             />
-            <p class="project-title">
-              <span class="code">&lt;</span>
+            <p className="project-title">
+              <span className="code">&lt;</span>
               Tic Tac Toe Game
-              <span class="code">/&gt;</span>
+              <span className="code">/&gt;</span>
             </p>
           </a>
         </div>
 
         <a
           href="https://codepen.io/FreeCodeCamp/"
-          class="btn btn-show-all"
+          className="btn btn-show-all"
           target="_blank"
         >
-          Show all<i class="fas fa-chevron-right"></i>
+          Show all<i className="fas fa-chevron-right"></i>
         </a>
       </section>
 
-      <section id="contact" class="contact-section">
-        <div class="contact-section-header">
+      <section id="contact" className="contact-section">
+        <div className="contact-section-header">
           <h2>Let's work together...</h2>
           <p>How do you take your coffee?</p>
         </div>
-        <div class="contact-links">
+        <div className="contact-links">
           <a
             id="profile-link"
             href="https://github.com/inioluwabello"
             target="_blank"
-            class="btn contact-details"
+            className="btn contact-details"
           >
-            <i class="fab fa-github"></i> GitHub
+            <i className="fab fa-github"></i> GitHub
           </a>
           <a
             href="https://twitter.com/DavidInioluwaB"
             target="_blank"
-            class="btn contact-details"
+            className="btn contact-details"
           >
-            <i class="fab fa-twitter"></i> Twitter
+            <i className="fab fa-twitter"></i> Twitter
           </a>
           <a
             href="mailto:belloolakunledavid@gmail.com"
-            class="btn contact-details"
+            className="btn contact-details"
           >
-            <i class="fas fa-at"></i> Send a mail
+            <i className="fas fa-at"></i> Send a mail
           </a>
-          <a href="tel:2347047596287" class="btn contact-details">
-            <i class="fas fa-mobile-alt"></i> Call me
+          <a href="tel:2347047596287" className="btn contact-details">
+            <i className="fas fa-mobile-alt"></i> Call me
           </a>
         </div>
       </section>
