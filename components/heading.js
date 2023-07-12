@@ -11,6 +11,8 @@ export default function Heading({ title, favicon }) {
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>{title}</title>
+      <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet" />
     </Head>
   );
 }
