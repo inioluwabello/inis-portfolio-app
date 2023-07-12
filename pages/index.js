@@ -1,7 +1,4 @@
-// import Layout from "../components/layout";
 import Heading from "../components/heading";
-// import LeftPane from "../components/home/LeftPane";
-// import RightPane from "../components/home/RightPane";
 const Index = ({}) => {
   return (
     <>

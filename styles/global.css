@@ -77,8 +77,8 @@ ul {
 }
 
 a {
- text-decoration: none;
- color: var(--main-white);
+ text-decoration: none !important;
+ color: var(--main-white) !important;
 }
 
 img {
