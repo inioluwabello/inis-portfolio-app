@@ -23,7 +23,9 @@ const Index = ({}) => {
       </section>
 
       <section id="projects" className="projects-section">
-        <h2 className="projects-section-header">These are some of my projects</h2>
+        <h2 className="projects-section-header">
+          These are some of my projects
+        </h2>
 
         <div className="projects-grid">
           <a
@@ -39,6 +41,23 @@ const Index = ({}) => {
             <p className="project-title">
               <span className="code">&lt;</span>
               Rock Paper Scissor Lizard Spock
+              <span className="code">/&gt;</span>
+            </p>
+          </a>
+
+          <a
+            href="https://rest-countries-api-with-color-theme-switcher-bay.vercel.app"
+            target="_blank"
+            className="project project-tile"
+          >
+            <img
+              className="project-image"
+              src="https://rest-countries-api-with-color-theme-switcher-bay.vercel.app/images/screenshot.png"
+              alt="project"
+            />
+            <p className="project-title">
+              <span className="code">&lt;</span>
+              Country List (React, Redux, Redux Toolkit, Next, API)
               <span className="code">/&gt;</span>
             </p>
           </a>
