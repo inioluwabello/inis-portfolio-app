@@ -19,12 +19,12 @@ const Index = ({}) => {
 
       <section id="welcome-section" className="welcome-section">
         <h1>Hey, I am David</h1>
-        <p>I'm a software developer...</p>
+        <p>I'm a Full Stack Developer</p>
       </section>
 
       <section id="projects" className="projects-section">
         <h2 className="projects-section-header">
-          These are some of my projects
+          Some of my projects...
         </h2>
 
         <div className="projects-grid">
@@ -63,6 +63,23 @@ const Index = ({}) => {
           </a>
 
           <a
+            href="https://linkedin-two-chi.vercel.app/"
+            target="_blank"
+            className="project project-tile"
+          >
+            <img
+              className="project-image"
+              src="https://placehold.co/600x400"
+              alt="project"
+            />
+            <p className="project-title">
+              <span className="code">&lt;</span>
+              LinkedIn Clone (Feeds Page)
+              <span className="code">/&gt;</span>
+            </p>
+          </a>
+
+          <a
             href="https://newsletter-nine-ecru.vercel.app"
             target="_blank"
             className="project project-tile"
@@ -95,23 +112,7 @@ const Index = ({}) => {
               <span className="code">/&gt;</span>
             </p>
           </a>
-          <a
-            href="https://linkedin-two-chi.vercel.app/"
-            target="_blank"
-            className="project project-tile"
-          >
-            <img
-              className="project-image"
-              src="https://placehold.co/600x400"
-              alt="project"
-            />
-            <p className="project-title">
-              <span className="code">&lt;</span>
-              LinkedIn Clone (Feeds Page)
-              <span className="code">/&gt;</span>
-            </p>
-          </a>
-
+          
           <a
             href="https://result-summary-beta.vercel.app"
             target="_blank"
@@ -124,7 +125,7 @@ const Index = ({}) => {
             />
             <p className="project-title">
               <span className="code">&lt;</span>
-              Wikipedia Viewer
+              Summary Component
               <span className="code">/&gt;</span>
             </p>
           </a>
@@ -141,7 +142,7 @@ const Index = ({}) => {
             />
             <p className="project-title">
               <span className="code">&lt;</span>
-              Tic Tac Toe Game
+              Age Calculator
               <span className="code">/&gt;</span>
             </p>
           </a>
