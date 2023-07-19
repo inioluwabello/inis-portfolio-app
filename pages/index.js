@@ -80,6 +80,23 @@ const Index = ({}) => {
           </a>
 
           <a
+            href="https://interactive-comments-section-lilac.vercel.app"
+            target="_blank"
+            className="project project-tile"
+          >
+            <img
+              className="project-image"
+              src="https://interactive-comments-section-lilac.vercel.app/images/screenshot.png"
+              alt="project"
+            />
+            <p className="project-title">
+              <span className="code">&lt;</span>
+              Interactive Comments Component
+              <span className="code">/&gt;</span>
+            </p>
+          </a>
+
+          <a
             href="https://newsletter-nine-ecru.vercel.app"
             target="_blank"
             className="project project-tile"
@@ -148,13 +165,13 @@ const Index = ({}) => {
           </a>
         </div>
 
-        <a
+        {/* <a
           href="https://codepen.io/FreeCodeCamp/"
           className="btn btn-show-all"
           target="_blank"
         >
           Show all<i className="fas fa-chevron-right"></i>
-        </a>
+        </a> */}
       </section>
 
       <section id="contact" className="contact-section">
