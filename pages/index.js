@@ -63,6 +63,23 @@ const Index = ({}) => {
           </a>
 
           <a
+            href="https://url-shortner-mauve-one.vercel.app"
+            target="_blank"
+            className="project project-tile"
+          >
+            <img
+              className="project-image"
+              src="https://url-shortner-mauve-one.vercel.app/images/screenshot.png"
+              alt="project"
+            />
+            <p className="project-title">
+              <span className="code">&lt;</span>
+              URL Shortner
+              <span className="code">/&gt;</span>
+            </p>
+          </a>
+          
+          <a
             href="https://linkedin-two-chi.vercel.app/"
             target="_blank"
             className="project project-tile"
