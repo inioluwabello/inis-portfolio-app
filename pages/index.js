@@ -19,7 +19,7 @@ const Index = ({}) => {
 
       <section id="welcome-section" className="welcome-section">
         <h1>Hey, I am David</h1>
-        <p>I'm a Full Stack Developer</p>
+        <p>I'm a Full Stack React Developer</p>
       </section>
 
       <section id="projects" className="projects-section">
@@ -57,7 +57,7 @@ const Index = ({}) => {
             />
             <p className="project-title">
               <span className="code">&lt;</span>
-              Country List (React, Redux, Redux Toolkit, Next, API)
+              Country List
               <span className="code">/&gt;</span>
             </p>
           </a>
