@@ -142,6 +142,7 @@ img {
  font-weight: 200;
  font-style: italic;
  color: var(--main-red);
+ text-align: center;
 }
 
 /* Projects section */
