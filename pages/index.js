@@ -95,6 +95,23 @@ const Index = ({}) => {
               <span className="code">/&gt;</span>
             </p>
           </a>
+          
+          <a
+            href="https://todo-two-ecru.vercel.app"
+            target="_blank"
+            className="project project-tile"
+          >
+            <img
+              className="project-image"
+              src="https://todo-two-ecru.vercel.app/images/screenshot.png"
+              alt="project"
+            />
+            <p className="project-title">
+              <span className="code">&lt;</span>
+              To Do App
+              <span className="code">/&gt;</span>
+            </p>
+          </a>
 
           <a
             href="https://interactive-comments-section-lilac.vercel.app"
