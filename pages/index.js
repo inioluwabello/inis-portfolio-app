@@ -40,7 +40,7 @@ const Index = ({}) => {
             />
             <p className="project-title">
               <span className="code">&lt;</span>
-              Rock Paper Scissor Lizard Spock
+              Rock Paper Scissor Lizard Spock | Next React Redux
               <span className="code">/&gt;</span>
             </p>
           </a>
@@ -57,7 +57,7 @@ const Index = ({}) => {
             />
             <p className="project-title">
               <span className="code">&lt;</span>
-              Country List
+              Country List | Nextjs React Redux
               <span className="code">/&gt;</span>
             </p>
           </a>
@@ -74,7 +74,7 @@ const Index = ({}) => {
             />
             <p className="project-title">
               <span className="code">&lt;</span>
-              URL Shortner
+              URL Shortner | React Redux
               <span className="code">/&gt;</span>
             </p>
           </a>
@@ -91,7 +91,7 @@ const Index = ({}) => {
             />
             <p className="project-title">
               <span className="code">&lt;</span>
-              LinkedIn Clone (Feeds Page)
+              LinkedIn Clone (Feeds Page) | Nextjs React Redux
               <span className="code">/&gt;</span>
             </p>
           </a>
@@ -108,7 +108,7 @@ const Index = ({}) => {
             />
             <p className="project-title">
               <span className="code">&lt;</span>
-              To Do App
+              To Do App | React Redux
               <span className="code">/&gt;</span>
             </p>
           </a>
@@ -125,7 +125,7 @@ const Index = ({}) => {
             />
             <p className="project-title">
               <span className="code">&lt;</span>
-              Interactive Comments Component
+              Interactive Comments Component | React Redux
               <span className="code">/&gt;</span>
             </p>
           </a>
@@ -142,7 +142,7 @@ const Index = ({}) => {
             />
             <p className="project-title">
               <span className="code">&lt;</span>
-              Newsletter App
+              Newsletter App | Next React Redux
               <span className="code">/&gt;</span>
             </p>
           </a>
