@@ -28,6 +28,40 @@ const Index = ({}) => {
         </h2>
 
         <div className="projects-grid">
+        <a
+            href="https://nextjs-dashboard-mu-tan-80.vercel.app/"
+            target="_blank"
+            className="project project-tile"
+          >
+            <img
+              className="project-image"
+              src="https://placehold.co/600x400"
+              alt="project"
+            />
+            <p className="project-title">
+              <span className="code">&lt;</span>
+              Acme Dashboard | Next React
+              <span className="code">/&gt;</span>
+            </p>
+          </a>
+          
+          <a
+            href="https://linkedin-two-chi.vercel.app/"
+            target="_blank"
+            className="project project-tile"
+          >
+            <img
+              className="project-image"
+              src="https://placehold.co/600x400"
+              alt="project"
+            />
+            <p className="project-title">
+              <span className="code">&lt;</span>
+              LinkedIn Clone (Feeds Page) | Nextjs React Redux
+              <span className="code">/&gt;</span>
+            </p>
+          </a>
+
           <a
             href="https://rock-paper-scissors-lizard-spock-gilt.vercel.app"
             target="_blank"
@@ -75,23 +109,6 @@ const Index = ({}) => {
             <p className="project-title">
               <span className="code">&lt;</span>
               URL Shortner | React Redux
-              <span className="code">/&gt;</span>
-            </p>
-          </a>
-          
-          <a
-            href="https://linkedin-two-chi.vercel.app/"
-            target="_blank"
-            className="project project-tile"
-          >
-            <img
-              className="project-image"
-              src="https://placehold.co/600x400"
-              alt="project"
-            />
-            <p className="project-title">
-              <span className="code">&lt;</span>
-              LinkedIn Clone (Feeds Page) | Nextjs React Redux
               <span className="code">/&gt;</span>
             </p>
           </a>
